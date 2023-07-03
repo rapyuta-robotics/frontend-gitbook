@@ -219,6 +219,37 @@ When creating tables, follow these guidelines:
          - Cell 2,1
     ```
 
+### Guidelines For a Pull Request (PR)
+
+When creating a pull request in the documentation repository, please adhere to the following guidelines:
+
+1. Add suitable **Wrike** links to the PR.
+
+1. Add any **Slack communication** links or references for additional documentation links.
+
+1. **Labels**: Ensure that you add the appropriate labels to your PR. Failure to add the necessary labels may result in the PR being rejected. Some recommended labels include:
+
+   - `under_review`: for PRs that are currently under review.
+   - `internal_spec`: for updates related to internal specifications.
+   - `blocked`: for PRs that are blocked and awaiting further development.
+   - `customer_spec`: for updates related to user-facing specifications.
+   - `ready_to_merge`: for PRs that have completed the review process and are ready to be merged.
+   - `new_user_doc`: for PRs that introduce changes to the structure of the user guide.
+   - `adhoc`: for PRs that have adhoc documentaiton requests
+   - `change_log`: for PRs that have release updates
+   - `doc_improvements`: for PRs that have documentation (HTML & PDF) improvements related to styles, layouts, etc
+
+1. **Commit Messages**: Use clear and meaningful commit messages. Consider following the conventional commit types for better organization:
+
+   - `feat`: for adding new features or functionality to the documentation.
+   - `fix`: for fixing issues or errors in the documentation.
+   - `docs`: for making changes to the documentation that do not affect the code or functionality.
+   - `chore`: for routine tasks or maintenance, such as updating dependencies or configurations.
+   - `style`: for making changes to the formatting, styling, or presentation of the documentation.
+   - `refactor`: for making structural or organizational changes to the documentation.
+   - `test`: for adding or modifying tests for the documentation.
+
+
 ### Rapyuta Robotics Design System
 
 Explore our branding guidelines, including colors, icons, and UI elements, and more in our comprehensive resource.
