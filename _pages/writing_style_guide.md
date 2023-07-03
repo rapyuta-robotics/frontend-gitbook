@@ -139,10 +139,8 @@ When including figures or images in the documentation, follow these guidelines:
 
 #### Ordered Lists
 
-- Use `#` for ordered lists.
+- Use typically numbers (`1`, `2`, `3`, etc.) for ordered lists.
 - Use sentence case for ordered lists.
-- To be used to denote a series of steps or sequential items
-
 
 #### Unordered Lists
 
