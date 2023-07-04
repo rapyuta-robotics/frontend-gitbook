@@ -210,7 +210,7 @@ When creating tables, follow these guidelines:
   - The `csv-table` directive allows you to import the data directly from a CSV file and render it as a table in your documentation. For example:
 
     ```
-    .. csv-table:: Table: My CSV table
+    .. csv-table:: Table: My CSV Table
        :file: my_table.csv
        :header-rows: 1
        :align: center
@@ -219,7 +219,7 @@ When creating tables, follow these guidelines:
   - The `list-table` directive is used to manually define and specify the content of the table using RST syntax. For example:
 
     ```
-    .. list-table:: Table: My list table
+    .. list-table:: Table: My List Table
        :widths: 20 30
        :header-rows: 1
        :align: center
