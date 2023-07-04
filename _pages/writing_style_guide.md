@@ -146,7 +146,7 @@ When including figures or images in the documentation, follow these guidelines:
 
 #### Ordered Lists
 
-- Use typically numbers (`1`, `2`, `3`, etc.) for ordered lists.
+- Use `#.` for ordered lists.
 - Use sentence case for ordered lists.
 
 #### Unordered Lists
@@ -161,10 +161,10 @@ When including figures or images in the documentation, follow these guidelines:
 **Ordered lists**: For sequential steps or instructions that must be followed in a specific order. For example:
 
 ```
-1. Connect the power cable.
-2. Press the power button.
-3. Select your language.
-4. Agree to the terms and conditions.
+#. Connect the power cable.
+#. Press the power button.
+#. Select your language.
+#. Agree to the terms and conditions.
 ```
 
 **Unordered lists**:  When you have a list of items that are not necessarily related in terms of order or priority, an unordered list is suitable. For example:
