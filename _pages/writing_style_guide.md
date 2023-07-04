@@ -6,6 +6,7 @@ category: Jekyll
 layout: post
 ---
 
+
 ## User Guide Formatting: Best Practices and Guidelines
 
 This style guide provides guidelines for writing user guide documentation for Rapyuta Robotics. It aims to ensure consistency and readability across the documentation.
@@ -15,6 +16,9 @@ This style guide provides guidelines for writing user guide documentation for Ra
 - Use appropriate heading levels to structure the content.
 - Use title case for all headings upto level 3
 - Use sentence case for level 4 heading
+
+  > **_NOTE:_**  Sentence case means capitalizing the first letter of the first word, and using lowercase for the remaining words, except for proper nouns and specific terms.
+
 - Rule: The length of the underline must be at least as long as the title itself
 
     1.  `==========`  for title
@@ -106,6 +110,9 @@ Events may be retrieved using the ``GET /v1/events/`` API endpoint.
 When including figures or images in the documentation, follow these guidelines:
 - Use a meaningful alt text for accessibility.
 - Use sentence case for figure names.
+
+  > **_NOTE:_**  Sentence case means capitalizing the first letter of the first word, and using lowercase for the remaining words, except for proper nouns and specific terms.
+
 - Include the custom `:class: figure-center-width-500` or `:class: figure-center-width-800` directive depending on the size of the image. This class will center align the image with width `500` or `800`. For example:
 
   ```
@@ -146,6 +153,8 @@ When including figures or images in the documentation, follow these guidelines:
 
 - Use `-` for unordered lists.
 - Use sentence case for unordered lists.
+
+  > **_NOTE:_**  Sentence case means capitalizing the first letter of the first word, and using lowercase for the remaining words, except for proper nouns and specific terms.
 
 #### When to use ordered and unordered lists?
 
@@ -190,7 +199,11 @@ When including figures or images in the documentation, follow these guidelines:
 When creating tables, follow these guidelines:
 
 - Use the appropriate RST syntax for creating tables.
-- Include a clear and concise caption above the table, using sentence case (Prefix the table caption with "Table: Table title")
+- Include a clear and concise caption above the table, using sentence case (Prefix the table caption with "Table: Table Title")
+- For table headers: use sentence case.
+  
+  > **_NOTE:_**  Sentence case means capitalizing the first letter of the first word, and using lowercase for the remaining words, except for proper nouns and specific terms.
+
 - Include `:align: center` directive to align the table to center.
 - There are two directives you can use for tables: `csv-table` and `list-table`. 
 
