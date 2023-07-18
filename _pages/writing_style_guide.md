@@ -210,7 +210,7 @@ When creating tables, follow these guidelines:
   - The `csv-table` directive allows you to import the data directly from a CSV file and render it as a table in your documentation. For example:
 
     ```
-    .. csv-table:: Table: My CSV Table
+    .. csv-table:: Table: My CSV table
        :file: my_table.csv
        :header-rows: 1
        :align: center
@@ -219,7 +219,7 @@ When creating tables, follow these guidelines:
   - The `list-table` directive is used to manually define and specify the content of the table using RST syntax. For example:
 
     ```
-    .. list-table:: Table: My List Table
+    .. list-table:: Table: My list table
        :widths: 20 30
        :header-rows: 1
        :align: center
@@ -257,9 +257,18 @@ When creating a pull request in the documentation repository, please adhere to t
    - `feat`: for adding new features or functionality to the documentation.
    - `fix`: for fixing issues or errors in the documentation.
    - `docs`: for making changes to the documentation that do not affect the code or functionality.
-   - `chore`: for routine tasks or maintenance, such as updating dependencies or configurations.
+   - `chore`: for tasks related to maintaining and managing the documentation content. This includes updates to build processes, scripts, documentation configuration, fixing broken links, updating documentation metadata, and other non-functional changes.
+      
+      Examples: 
+      - `chore: update documentation build script`
+      - `chore: fix broken links in documentation`
+      - `chore: update table of contents for documentation`
    - `style`: for making changes to the formatting, styling, or presentation of the documentation.
-   - `refactor`: for making structural or organizational changes to the documentation.
+   - `refactor`: used when reordering sections, rewriting content to make it more concise, enhancing the documentation's consistency
+
+      Examples:
+      - `refactor: rearrange sections in the user guide`
+      - `refactor: update formatting for better readability`
    - `test`: for adding or modifying tests for the documentation.
 
 
